@@ -13,6 +13,8 @@ import UserList from "./components/UserList";
 import ProductList from "./components/ProductList";
 import Person from "./Person";
 import Product from "./components/Product";
+import Weather from "./components/Weather";
+import UserStatus from "./components/UserStatus";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
       <ProductList />
       <Person name="John" age={25} />
       <Product name="smart watch" price="ksh 3000" />
+      <Weather />
+      <UserStatus loggedIn={true} isAdmin={false} />
     </div>
   );
 }
