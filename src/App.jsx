@@ -8,6 +8,9 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import JSXRules from "./components/JSXRules";
 import Greeting from "./components/Greeting";
 import ProductInfo from "./components/ProductInfo";
+import Mapping from "./components/Mapping";
+import UserList from "./components/UserList";
+import ProductList from "./components/ProductList";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
 
       <Greeting />
       <ProductInfo />
+      <Mapping />
+      <UserList />
+      <ProductList />
     </div>
   );
 }
