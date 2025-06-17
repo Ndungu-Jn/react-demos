@@ -11,6 +11,8 @@ import ProductInfo from "./components/ProductInfo";
 import Mapping from "./components/Mapping";
 import UserList from "./components/UserList";
 import ProductList from "./components/ProductList";
+import Person from "./Person";
+import Product from "./components/Product";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
       <Mapping />
       <UserList />
       <ProductList />
+      <Person name="John" age={25} />
+      <Product name="smart watch" price="ksh 3000" />
     </div>
   );
 }
