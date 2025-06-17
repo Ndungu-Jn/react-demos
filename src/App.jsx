@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
 import WelcomeMessage from "./components/WelcomeMessage";
 import JSXRules from "./components/JSXRules";
+import Greeting from "./components/Greeting";
+import ProductInfo from "./components/ProductInfo";
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
       <WelcomeMessage />
       <JSXRules />
       <Footer />
+
+      <Greeting />
+      <ProductInfo />
     </div>
   );
 }
