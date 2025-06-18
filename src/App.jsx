@@ -15,10 +15,19 @@ import Person from "./Person";
 import Product from "./components/Product";
 import Weather from "./components/Weather";
 import UserStatus from "./components/UserStatus";
+import { IoIosCart } from "react-icons/io";
+import { MdComputer } from "react-icons/md";
+import { IoCarSportOutline } from "react-icons/io5";
+import StylesCard from "./components/StylesCard";
+import ProfileCard from "./components/ProfileCard";
+import IconComponent from "./components/IconComponent";
 
 function App() {
   return (
     <div>
+      <IoIosCart />
+      <MdComputer />
+      <IoCarSportOutline />
       <Header />
       <MainContent />
       <WelcomeMessage />
@@ -34,6 +43,9 @@ function App() {
       <Product name="smart watch" price="ksh 3000" />
       <Weather />
       <UserStatus loggedIn={true} isAdmin={false} />
+      <StylesCard />
+      <ProfileCard />
+      <IconComponent />
     </div>
   );
 }
