@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Greet from "./components/Greet";
 import Add from "./components/Add";
 import Header from "./components/Header";
@@ -21,6 +21,7 @@ import { IoCarSportOutline } from "react-icons/io5";
 import StylesCard from "./components/StylesCard";
 import ProfileCard from "./components/ProfileCard";
 import IconComponent from "./components/IconComponent";
+import RandomNumber from "./components/RandomNumber";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       <StylesCard />
       <ProfileCard />
       <IconComponent />
+      <RandomNumber />
     </div>
   );
 }
