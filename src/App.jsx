@@ -24,6 +24,7 @@ import IconComponent from "./components/IconComponent";
 import RandomNumber from "./components/RandomNumber";
 import Counter from "./components/Counter";
 import TodoList from "./components/TodoList";
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
       <RandomNumber />
       <Counter />
       <TodoList />
+      <Profile />
     </div>
   );
 }
