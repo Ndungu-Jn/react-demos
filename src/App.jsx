@@ -22,6 +22,8 @@ import StylesCard from "./components/StylesCard";
 import ProfileCard from "./components/ProfileCard";
 import IconComponent from "./components/IconComponent";
 import RandomNumber from "./components/RandomNumber";
+import Counter from "./components/Counter";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
@@ -48,6 +50,8 @@ function App() {
       <ProfileCard />
       <IconComponent />
       <RandomNumber />
+      <Counter />
+      <TodoList />
     </div>
   );
 }
