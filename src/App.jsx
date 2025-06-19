@@ -26,6 +26,7 @@ import Counter from "./components/Counter";
 import TodoList from "./components/TodoList";
 import Profile from "./components/Profile";
 import ShoppingList from "./components/ShoppingList";
+import UseEffect from "./components/UseEffect";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
       <TodoList />
       <Profile />
       <ShoppingList />
+      <UseEffect />
     </div>
   );
 }
