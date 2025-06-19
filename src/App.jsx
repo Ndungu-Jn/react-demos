@@ -30,6 +30,9 @@ import UseEffect from "./components/UseEffect";
 import BasicEffect from "./components/BasicEffect";
 import CounterEffect from "./components/CounterEffect";
 import FetchDataEffect from "./components/FetchDataEffect";
+import UserProfile from "./components/UserProfile";
+import { UserProvider } from "./components/UserContext";
+import UpdateUser from "./components/UpdateUser";
 
 function App() {
   return (
@@ -64,6 +67,10 @@ function App() {
       <BasicEffect />
       <CounterEffect />
       <FetchDataEffect />
+      <UserProvider>
+        <UserProfile />
+        <UpdateUser />
+      </UserProvider>
     </div>
   );
 }
