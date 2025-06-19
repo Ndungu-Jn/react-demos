@@ -11,7 +11,7 @@ import ProductInfo from "./components/ProductInfo";
 import Mapping from "./components/Mapping";
 import UserList from "./components/UserList";
 import ProductList from "./components/ProductList";
-import Person from "./Person";
+import Person from "./components/Person";
 import Product from "./components/Product";
 import Weather from "./components/Weather";
 import UserStatus from "./components/UserStatus";
@@ -27,6 +27,9 @@ import TodoList from "./components/TodoList";
 import Profile from "./components/Profile";
 import ShoppingList from "./components/ShoppingList";
 import UseEffect from "./components/UseEffect";
+import BasicEffect from "./components/BasicEffect";
+import CounterEffect from "./components/CounterEffect";
+import FetchDataEffect from "./components/FetchDataEffect";
 
 function App() {
   return (
@@ -58,6 +61,9 @@ function App() {
       <Profile />
       <ShoppingList />
       <UseEffect />
+      <BasicEffect />
+      <CounterEffect />
+      <FetchDataEffect />
     </div>
   );
 }
